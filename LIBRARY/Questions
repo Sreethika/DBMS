@@ -1,0 +1,37 @@
+1. Find the first names and last names of authors, having the author’s first name as a single
+Character.
+
+2. Find the titles and publishers of all books, except the ones published in year ‘2015’ or
+‘2017’.
+
+3. Find the first names and last names of the students whose birthday is in May 2002 or
+in May 2003.
+
+4. Find out the total number of members in the UG with alias name or column header as
+‘total member’.
+
+5. Find out the number of female students in each department.
+
+6. Write a query to obtain the natural join between the tables, students and departments.
+
+7. Find the name of the department in which Gita Das is studying.
+
+8. Find the roll number of all male students, having their department building in ‘Block 2’.
+
+9. Find the first name, last name and the roll number of students having their department
+building in ‘Block 1’.
+
+10. Find out the details of the members who have not issued any books.
+
+11. Write a SQL statement to find out the dates when one or more copies of the book having
+the title “Learning with Python” has been issued.
+
+12. Write a SQL statement to find out the names of research scholars (RS) who have not
+issued any books.
+
+13. Write an SQL statement to find the unique book titles which are issued to “PG” students
+but not to “UG” students.
+
+14. Find the name and gender of staff whose mobile number ends with ‘56’.
+
+15. Retrieve all departments and the count of faculty members in each.
