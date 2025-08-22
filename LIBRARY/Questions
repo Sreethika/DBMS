@@ -1,14 +1,10 @@
-1. Find the first names and last names of authors, having the author’s first name as a single
-Character.
+1. Find the first names and last names of authors, having the author’s first name as a single Character.
 
-2. Find the titles and publishers of all books, except the ones published in year ‘2015’ or
-‘2017’.
+2. Find the titles and publishers of all books, except the ones published in year ‘2015’ or ‘2017’.
 
-3. Find the first names and last names of the students whose birthday is in May 2002 or
-in May 2003.
+3. Find the first names and last names of the students whose birthday is in May 2002 or in May 2003.
 
-4. Find out the total number of members in the UG with alias name or column header as
-‘total member’.
+4. Find out the total number of members in the UG with alias name or column header as ‘total member’.
 
 5. Find out the number of female students in each department.
 
@@ -18,20 +14,36 @@ in May 2003.
 
 8. Find the roll number of all male students, having their department building in ‘Block 2’.
 
-9. Find the first name, last name and the roll number of students having their department
-building in ‘Block 1’.
+9. Find the first name, last name and the roll number of students having their department building in ‘Block 1’.
 
 10. Find out the details of the members who have not issued any books.
 
-11. Write a SQL statement to find out the dates when one or more copies of the book having
-the title “Learning with Python” has been issued.
+11. Write a SQL statement to find out the dates when one or more copies of the book having the title “Learning with Python” has been issued.
 
-12. Write a SQL statement to find out the names of research scholars (RS) who have not
-issued any books.
+12. Write a SQL statement to find out the names of research scholars (RS) who have not issued any books.
 
-13. Write an SQL statement to find the unique book titles which are issued to “PG” students
-but not to “UG” students.
+13. Write an SQL statement to find the unique book titles which are issued to “PG” students but not to “UG” students.
 
 14. Find the name and gender of staff whose mobile number ends with ‘56’.
 
 15. Retrieve all departments and the count of faculty members in each.
+
+16. Write an SQL query to find the member type and the total number of members in each type. The output should be displayed in descending order of the number of members types.
+
+17. Write an SQL statement to find the titles of books authored by an author having first name as 'Joh Paul' and last name as 'Mueller'.[
+
+18. Write a SQL statement to find the titles of books published by 'McGraw Hill Education'.
+
+19. Write a SQL statement to display the first name and the last name of students (student_fname, student_lname) pursuing 'PG' courses.
+
+20. Write an SQL statement to find the first names and dob (student_fname, dob) of students who belong to the department with department code as 'ME' and who were born after '2003-06-15'.
+
+21. Write an SQL statement to find the last names (faculty_lname) of male faculty who belong to the department:'Electrical Engineering'
+
+22. Write an SQL statement to find the first name, last name of the faculty of the department having department code as 'ME' and who have issued at least one book, such that there are no duplicate firstname-lastname pairs.
+
+23. Write an SQL statement to find the number of book-titles issued on 11th August 2021.
+
+24. Write a SQL statement to find the names of faculty (faculty_fname, faculty_lname) who did not issue any book.
+
+25. Write an SQL statement to find the book titles and the number of copies of the books which has the word 'Database' in their title.
