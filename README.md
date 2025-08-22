@@ -5,3 +5,5 @@ I’ve organized them to make it easy and practical for anyone starting out with
 LIBRARY and SPORTS folders contain sample databases to refer to.
 PRACTISE folder contains questions to solve.
 QUESTIONS folder contains additional questions for further practice.
+
+This is also helpful in preparation for OPPE exam.
