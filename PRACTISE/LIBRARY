@@ -1,15 +1,28 @@
-# SQL Query Practice – Library Database
+# 📚 Library Management SQL Queries  
 
-**🔗 Refer to `LIBRARY.png`** *(located in the repo)* while reading the queries to better understand the database structure.
-
-### How to run queries:
-Go to the folder path:  
-`DBMS/LIBRARY/`  
-and use the **PostgreSQL dump** file `Postgre-SQL-dump` to load the database.
+> **Note**  
+> - 📌 Refer to [`LIBRARY.png.md`](LIBRARY.png.md) for the schema diagram while reading these queries.  
+> - 📂 To run the queries, navigate to:  
+>   ```
+>   DBMS/LIBRARY/
+>   ```
+>   and load the `Postgre-SQL-dump`.  
 
 ---
 
-### Sample Queries
+## 🔹 Author & Book Queries  
+
+```sql
+-- 1. Authors with first name as a single character
+SELECT author_fname, author_lname
+FROM book_authors
+WHERE length(author_fname) = 1;
+
+-- 2. Titles & publishers of books not in year 2015/2017
+SELECT title, publisher
+FROM book_catalogue
+WHERE year NOT IN (2015, 2017);
+
 
 1. **Find authors with a first name of a single character**  
 SELECT author_fname, author_lname
