@@ -1,0 +1,61 @@
+students table: (PK: roll_no)
+  ● student_fname: first name of the student
+  ● student_lname: last name of the student
+  ● roll_no: roll number of the student, e.g., CS01, ME01
+  ● department_code: department code of the student e.g., CS, ME, MCA
+  ● gender: "M" means MALE, "F" means FEMALE
+  ● mobile_no: mobile number of the students
+  ● dob: date of birth of the student
+  ● degree: e.g. B.tech, MCA
+    faculty table: (PK: id)
+  ● faculty_fname: first name of the faculty
+  ● faculty_lname: last name of the faculty
+  ● id: faculty id, e.g. FCS01,FME02
+  ● department_code: department code to which the faculty belong e.g. CS, ME, MCA
+  ● gender: "M" means MALE, "F" means FEMALE
+  ● mobile_no: mobile number of the faculty
+  ● doj: date of joining
+
+quota table: (PK: member _type)
+  ● member _type: there are four member types "UG", "PG", "RS", "FC"
+    UG: UNDERGRADUATE STUDENT
+    PG: POSTGRADUATE STUDENT
+    RS: RESEARCH SCHOLAR
+    FC: FACULTY
+  ● max_books: maximum no of book can be issued
+  ● max_duration: maximum days can be kept
+    members table: (PK: member_no)
+  ● member_no: member number, e.g. M0001
+  ● member_class: faculty or student
+  ● member _type: UG/PG/RS/FC
+  ● roll_no: if a member is of student class, then it is the roll number of the student; otherwise, it is null.
+  ● id: if a member is of faculty class, then it is the id of the faculty; otherwise it is null.
+    book_issue table: (PK: member_no, accession_no)
+  ● member_no: member number issued by a book copy
+  ● accession_no: accession number of the book copy
+  ● doi: date of issue
+
+book_catalogue table: (PK: isbn_no)
+  ● isbn_no: ISBN of the book
+  ● title: name of the book
+  ● publisher: publisher of the book
+  ● year: year of publishing
+    book_authors table: (PK: isbn_no, author_fname, author_lname)
+  ● isbn_no: ISBN of the book
+  ● author_fname: author’s first name
+  ● author_lname: author’s last name
+    book_copies table: (PK: accession_no)
+  ● Isbn_no: ISBN of the book
+  ● accession_no: accession number of the book copy.
+
+department table: (PK: department_code)
+  ● department_code: unique code for the department
+  ● department_name: name of the department
+  ● department_building: the building name where the department is located
+    staff table: (PK: id)
+  ● staff_fname: staff's first name
+  ● staff_lname: staff's last name
+  ● id: staff id
+  ● gender: "M" means MALE, "F" means FEMALE
+  ● mobile_no: mobile number of the staff
+  ● doj: date of joining
